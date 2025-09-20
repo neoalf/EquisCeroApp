@@ -71,6 +71,7 @@
                     android:layout_height="60dp"
                     android:layout_marginTop="30dp"
                     android:backgroundTint="@color/Primary"
+                    android:onClick="nextScreen"
                     android:text="INICIAR"
                     android:textSize="24sp" />
             </LinearLayout>
@@ -82,6 +83,6 @@
             android:layout_height="match_parent"
             android:alpha="0.2"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/Fondo" />
+            app:srcCompat="@drawable/fondo" />
     </FrameLayout>
 </LinearLayout>
