@@ -6,3 +6,7 @@ https://youtu.be/1-GhC2HTJfA?si=y2OKYWRxdqDYpps_
 ****************************************************************************
 Desarrollo de Aplicaciones Móviles - IS322
 Prof. Allan | UNCSM
+Integrantes:
+-Mario Quintanilla Chacón
+-José Carlos Somoza Mena
+-Roan Joseph Valle Méndez
