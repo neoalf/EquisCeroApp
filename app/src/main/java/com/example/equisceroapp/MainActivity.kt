@@ -20,16 +20,17 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        fun nextScreen(v:View){
-            var player1 = findViewById<EditText>(R.id.etplayer1)
-            var player2 = findViewById<EditText>(R.id.etplayer2)
+    }
 
-            var intent = Intent(applicationContext, Juego ::class.java)
-            intent.putExtra("player1", player1.text.toString())
-            intent.putExtra("player2", player2.text.toString())
-            startActivity(intent)
+    fun nextScreen(v:View){
+        var player1 = findViewById<EditText>(R.id.etplayer1)
+        var player2 = findViewById<EditText>(R.id.etplayer2)
 
-        }
+        var intent = Intent(applicationContext, Juego ::class.java)
+        intent.putExtra("player1", player1.text.toString())
+        intent.putExtra("player2", player2.text.toString())
+        startActivity(intent)
 
     }
+
 }

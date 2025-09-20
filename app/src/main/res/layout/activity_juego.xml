@@ -23,7 +23,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/tvPlayer1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Player 1"
@@ -39,7 +39,7 @@
                 tools:srcCompat="@drawable/x" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/tvScorePlayer1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -56,7 +56,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/tvPlayer2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Player 2"
@@ -72,7 +72,7 @@
                 tools:srcCompat="@drawable/icon_circle_24" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/tvScorePlayer2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -215,7 +215,8 @@
             android:layout_height="70dp"
             android:layout_margin="20dp"
             android:backgroundTint="@color/white"
-            android:text="REINICIAR JUEGO"
+            android:onClick="nuevaPartida"
+            android:text="OTRO JUEGO"
             android:textColor="@color/Primary"
             android:textSize="30sp" />
     </LinearLayout>
